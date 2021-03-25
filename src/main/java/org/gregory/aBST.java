@@ -14,10 +14,6 @@ class aBST {
     }
 
     public Integer FindKeyIndex(int key) {
-/*        if (Tree[0] != null) {
-            return recursiveTreeCrawler(key, 0);
-        }
-        return null; // не найден*/
         return recursiveTreeCrawler(key, 0);
     }
 
